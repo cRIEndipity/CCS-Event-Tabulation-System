@@ -132,8 +132,8 @@ export const Login: React.FC<LoginProps> = ({ onLogin }) => {
 
         <div className="relative z-10">
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center shadow-lg shadow-blue-900/50">
-              <Shield className="text-white h-7 w-7" />
+            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center shadow-lg shadow-blue-900/50 overflow-hidden">
+              <img src="/wolf-favicon.png" alt="CCS Wolf Logo" className="h-8 w-8" />
             </div>
             <span className="text-white font-bold text-xl tracking-wider">CCS TABULATION</span>
           </div>
@@ -170,6 +170,11 @@ export const Login: React.FC<LoginProps> = ({ onLogin }) => {
                 className="bg-white p-10 rounded-2xl shadow-xl border border-slate-100"
               >
                 <div className="mb-8">
+                  <div className="flex justify-center mb-6">
+                    <div className="bg-gradient-to-br from-blue-900 to-blue-700 p-3 rounded-2xl shadow-lg">
+                      <img src="/wolf-favicon.png" alt="Wolf Logo" className="w-16 h-16" />
+                    </div>
+                  </div>
                   <h2 className="text-2xl font-bold text-slate-900">Welcome Back</h2>
                   <p className="text-slate-500 mt-1">Please sign in to your account</p>
                 </div>
@@ -243,6 +248,11 @@ export const Login: React.FC<LoginProps> = ({ onLogin }) => {
                 </button>
 
                 <div className="mb-8">
+                  <div className="flex justify-center mb-6">
+                    <div className="bg-gradient-to-br from-blue-600 to-blue-500 p-3 rounded-2xl shadow-lg">
+                      <img src="/wolf-favicon.png" alt="Wolf Logo" className="w-16 h-16" />
+                    </div>
+                  </div>
                   <h2 className="text-2xl font-bold text-slate-900">Administration Check</h2>
                   <p className="text-slate-500 mt-2 text-sm leading-relaxed">
                     To create a Tabulation Representative account, you must first verify which administration you are under.
@@ -294,6 +304,11 @@ export const Login: React.FC<LoginProps> = ({ onLogin }) => {
                 </button>
 
                 <div className="mb-6">
+                  <div className="flex justify-center mb-4">
+                    <div className="bg-gradient-to-br from-green-600 to-green-500 p-3 rounded-2xl shadow-lg">
+                      <img src="/wolf-favicon.png" alt="Wolf Logo" className="w-14 h-14" />
+                    </div>
+                  </div>
                   <h2 className="text-2xl font-bold text-slate-900">Create Account</h2>
                   <p className="text-slate-500 mt-1">Tabulation Representative Registration</p>
                   <div className="mt-2 inline-flex items-center px-2 py-1 rounded bg-green-50 border border-green-100 text-green-700 text-xs font-medium">

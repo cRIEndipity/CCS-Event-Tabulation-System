@@ -87,8 +87,8 @@ export const Layout: React.FC<LayoutProps> = ({ currentScreen, onNavigate, onLog
         {/* Logo Section */}
         <div className="p-6 relative z-10 border-b border-white/10">
           <div className="flex items-center gap-4 mb-1">
-            <div className="w-12 h-12 bg-gradient-to-br from-maroon-600 to-maroon-700 rounded-xl flex items-center justify-center shadow-lg shadow-maroon-900/30 border border-maroon-500/50">
-              <GraduationCap className="text-white w-6 h-6" />
+            <div className="w-12 h-12 bg-gradient-to-br from-maroon-600 to-maroon-700 rounded-xl flex items-center justify-center shadow-lg shadow-maroon-900/30 border border-maroon-500/50 overflow-hidden">
+              <img src="/wolf-favicon.png" alt="CCS Wolf Logo" className="w-7 h-7" />
             </div>
             <div>
               <h1 className="text-white font-bold text-xl tracking-tight leading-none">
