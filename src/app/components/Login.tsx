@@ -153,7 +153,7 @@ export const Login: React.FC<LoginProps> = ({ onLogin }) => {
             <div className="h-1 w-3 bg-slate-700 rounded-full"></div>
           </div>
           <p className="text-xs text-slate-500 uppercase tracking-widest font-bold">Authorized Access Only</p>
-          <p className="text-xs text-slate-600 mt-1">© 2026 College of Computer Studies</p>
+          <p className="text-xs text-slate-600 mt-1">© 2026 CCS Tabulation Committee</p>
         </div>
       </div>
 
